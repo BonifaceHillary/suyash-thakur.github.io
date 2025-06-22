@@ -1,6 +1,7 @@
 
 const FileSystem = {
-    readFile: function (path) {
+    readFile:
+     function (path) {
         const xhr = new XMLHttpRequest();
         xhr.open("GET", path, false);
         xhr.send();
